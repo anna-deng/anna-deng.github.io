@@ -2,9 +2,15 @@
   font-family: 'Lato';
 }
 
+body {
+  background-color: rgba(195, 50, 50, 0.06);
+  margin-left: 100px;
+  margin-top: 25px;
+}
+
 #name {
-  margin-left: 25px;
   font-weight: 100;
+  font-size: 48px;
 }
 
 #headshot {
