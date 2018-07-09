@@ -3,6 +3,14 @@
   text-decoration: none;
 }
 
+a {
+  color: rgb(39, 66, 145);
+}
+
+a:visited{
+  color: rgb(88,33,127);
+}
+
 a:hover {
   color: #fcc15c;
 }
@@ -59,6 +67,8 @@ li {
   float: right;
   margin-right:100px;
   border-radius: 5%;
+  margin-bottom: 75px;
+  margin-top:75px;
 }
 
 /* #smallwrap {
