@@ -1,0 +1,97 @@
+* {
+    font-family: 'Poppins';
+    color: #9AFECB;
+}
+
+body {
+    background-color: #0C4ADE;
+}
+
+.nav-bar {
+    margin: auto;
+    text-align: center;
+    margin-top: 2%;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}  
+
+.nav-bar--link {
+    color: #9AFECB;
+    text-decoration: none;
+}
+
+.nav-bar--link:hover {
+color: #EF0D1B;
+text-decoration: none;
+}
+
+.underlined-group {
+display: flex;
+flex-direction: column;
+text-align: center;
+margin-right: 1%;
+}
+
+.squiggly {
+height: 10px;
+width: 60px;
+margin-left: 7%;
+}
+
+.about-outer-container {
+    display: flex;
+    padding: 1%;
+    justify-content: space-around;
+}
+
+.about-subheader {
+    font-size: 64px;
+    font-weight: 500;
+    margin-bottom: 0;
+    margin-top: 3%;
+}
+
+.about-left {
+    max-width: 50%;
+}
+
+.about-text {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.infoicon {
+    text-decoration: none;
+    list-style-type: none;
+    margin-right: 3%;
+}
+
+#contact {
+    display: flex;
+    margin: 0;
+    padding-left: 1%;
+}
+
+.image-me {
+    width: 427px;
+    height: 399px;
+    margin-top: 20%;
+}
+
+.about-link {
+    text-decoration: none;
+}
+
+.image-caption {
+    text-align: center;
+}
+
+.intext-link {
+    text-decoration: none;
+}
+
+.intext-link:hover {
+    text-decoration: underline;
+}

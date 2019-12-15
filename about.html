@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href='css/about.css' rel='stylesheet'>
+    <link rel="shortcut icon" type="image/x-icon" href="img/tabimage.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:500,600&display=swap" rel="stylesheet">    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+      <!--<img id="headshot" src="img/headshot-square.jpg">-->
+      <script src="scripts/script.js"></script>
+      <script>
+      var sites = [
+            'http://endless.horse/',
+            'http://corndog.io/',
+            'http://www.koalastothemax.com/',
+            'http://isitwednesdaymydudes.ml/',
+            'http://www.pointerpointer.com/',
+            'https://crouton.net/',
+            'http://www.yesnoif.com/',
+            'http://www.ismycomputeron.com/',
+            'http://www.patience-is-a-virtue.org/',
+            'http://onemillionlols.com/',
+            'http://dogs.are.the.most.moe/',
+            'http://chihuahuaspin.com/',
+            'http://spaceis.cool/',
+            'http://www.infinitething.com/',
+            'http://buzzybuzz.biz/',
+            'http://tinytuba.com/',
+            'http://hooooooooo.com/',
+          ];
+          
+            function randomSite() {
+              var i = parseInt(Math.random() * sites.length);
+              location.href = sites[i];
+              window.open(sites[i]);
+            }
+          </script>
+    <body>
+        <div class='nav-bar'>
+            <a href='index.html' class='nav-bar--link' style="margin-right: 1%;">HOME</a>
+            <div class='underlined-group'>
+                <a href='about.html' class='nav-bar--link'>ABOUT</a>
+                <img class='squiggly' src='img/blue-squiggly.png'/>
+            </div>
+            <a href='works.html' class='nav-bar--link'>WORK</a>
+        </div>
+        <div class='about-outer-container'>
+            <div class='about-left'>
+                <h1 class='about-subheader'>about me.</h1>
+                <ul id='contact'>
+                    <li class="infoicon">
+                        <a href="img/resume19.pdf" target="_blank" title="resume" class="about-link far fa-file-alt" download></a>
+                    </li>
+                    <li class="infoicon">
+                        <a href="https://www.github.com/anna-deng" target="_blank" title="github" class="about-link fab fa-github"></a>
+                    </li>
+                    <li class="infoicon">
+                        <a href="https://www.linkedin.com/in/anna-d-580b1393" target="_blank" title="linkedin" class="about-link fab fa-linkedin"></a>
+                    </li>
+                    <li class="infoicon">
+                        <a href="mailto:annadeng2020@u.northwestern.edu" title="email me!" class="about-link far fa-envelope"></a>
+                    </li>
+                    <li class="infoicon">
+                        <a href='' onclick="randomSite();" title="???" class="about-link fas fa-question"></a>
+                    </li>
+                </ul>
+                <p class='about-text'>hey there! I’m Anna  - I’m a senior studying Computer Science 💻 (major) and Art 🎨 (minor) at Northwestern University (📍Evanston, IL). I've interned (and freelanced) for <a class='intext-link' href='https://www.albert.io' target='_blank'>Albert.io</a>, and I'm looking forward to joining the <a class='intext-link' href='https://www.disneyplus.com' target='_blank'>Disney Streaming Services</a> team after I graduate. </p>
+                <p class='about-text'>Alongside my interest for technology, I’ve always had a passion for education, art, and for making positive social impact 💛. </p>
+                <p class='about-text'>Through the past decade 🕙, I’ve worked as an educator through various activites: tutoring, TA-ing Northwestern CS courses, and teaching my own Web Design enrichment courses to name a few 👩🏼‍🏫.</p>
+                <p class='about-text'>To quench my need to "do good", I co-founded <a class='intext-link' href='https:/www.discnu.com' target='_blank'>Northwestern’s Develop + Innovate for Social Change</a>, now working as the Tech Studio Lead 🙇🏼‍♀️. I am also <a class='intext-link' href='http://wic.cs.northwestern.edu/' target='_blank'>NU’s Women in Computing</a> Internal President, one of the most fulfilling experiences I’ve had at my time in college 👁❤️👩🏼‍💻.</p>
+            </div>
+            <div class='about-right'>
+                <img class='image-me' src='img/starme.png'/>
+                <p class='image-caption'>picture of me in a star (but I'm blonde now)</p>
+            </div>
+        </div>
+    </body>
+</html>
