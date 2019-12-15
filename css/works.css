@@ -46,17 +46,14 @@ margin-left: 7%;
     padding-left: 6%; 
 }
 
-/* .work-outer-container {
-    padding-left: 6%; 
-} */
-
 .work-subtitle {
     font-size: 36px;
     font-weight: 500;
-    color: #767869;
+    color: #5a5c51;
     text-align: center;
     width: 50%;
     margin: auto;
+    /* text-shadow: 1px 2px #501FA3; */
 }
 
 .row {
@@ -82,14 +79,14 @@ margin-left: 7%;
 }
 
 .project-caption-title {
-    color: #767869;
+    color: #41423a;
     font-size: 16px;
     margin: 0;
     /* margin-left: -2%; */
 }
 
 .project-caption-description {
-    color: #767869;
+    color: #41423a;
     font-size: 14px;
     margin: 0;
     /* margin-left: -2%; */
@@ -98,7 +95,7 @@ margin-left: 7%;
 }
 
 .code-link {
-    color: #767869;
+    color: #41423a;
     text-decoration: none;
     font-size: 12px;
     margin: 0;
@@ -116,5 +113,5 @@ margin-left: 7%;
 }
 
 .work-teaching-text {
-    color: #767869;
+    color: #41423a;
 }
