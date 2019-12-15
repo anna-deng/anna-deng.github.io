@@ -95,3 +95,18 @@ margin-left: 7%;
 .intext-link:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 800px) {
+    .image-me {
+        display: none;
+    }
+
+    .image-caption {
+        display: none;
+    }
+
+    .about-left {
+        margin: auto;
+    }
+  }
+  

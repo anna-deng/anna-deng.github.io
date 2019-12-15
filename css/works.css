@@ -115,3 +115,19 @@ margin-left: 7%;
 .work-teaching-text {
     color: #41423a;
 }
+
+@media (max-width: 800px) {
+    .row {
+        display: inline-block;
+    }
+
+    .proj-with-caption {
+        width: 40%;
+        margin: auto;
+        margin-top: 5%;
+    }
+
+    .project-caption-description {
+        width: 100% !important;
+    }
+  }
