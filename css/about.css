@@ -96,7 +96,7 @@ margin-left: 7%;
     text-decoration: underline;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .image-me {
         display: none;
     }
@@ -107,6 +107,11 @@ margin-left: 7%;
 
     .about-left {
         margin: auto;
+        max-width: 80%;
+    }
+
+    .about-subheader {
+        font-size: 58px;
     }
   }
   

@@ -116,18 +116,40 @@ margin-left: 7%;
     color: #41423a;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .row {
         display: inline-block;
     }
 
     .proj-with-caption {
-        width: 40%;
         margin: auto;
         margin-top: 5%;
+        align-items: center;
+        text-align: center;
     }
 
     .project-caption-description {
         width: 100% !important;
+    }
+
+    .work-title {
+        text-align: center;
+        padding: 0;
+        margin-top: 0;
+        font-size: 58px;
+    }
+
+    .work-subtitle {
+        text-align: center;
+        font-size:20px;
+        width: 100%;
+    }
+
+    .teaching-list {
+        width: 100%;
+    }
+
+    .teaching-list-container{
+        width: 85%;
     }
   }
